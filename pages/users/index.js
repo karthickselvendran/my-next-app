@@ -17,6 +17,8 @@ export default function Users({ names }) {
   console.log("names--", names[0]);
   return (
     <div className="home">
+      <h1>Users List:</h1>
+      <br />
       {names?.length &&
         names.map((user) => (
           <h2>{user.id + " " + user.name + ", " + user.address.city}</h2>

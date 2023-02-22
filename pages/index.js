@@ -19,8 +19,9 @@ export default function Home() {
         Middleware Improvements: Return responses and set request headers. SWC
         Import Resolution: For smaller JavaScript bundles when using barrel
         files. Memory usage improvements, new templates, and more!
-        <br />
-        <br />
+      </p>
+      <br />
+      <p>
         In Next.js 13, we announced the new app directory (beta). This new
         routing and data fetching system can be incrementally adopted alongside
         your existing pages directory. The app directory provides many benefits,
@@ -44,8 +45,9 @@ export default function Home() {
         slightly larger, the increase is caused by the React Server Components
         runtime, which handles mechanics that Next.js previously handled. We are
         working to reduce this further.
-        <br />
-        <br />
+      </p>
+      <br />
+      <p>
         In Next.js 13, we announced the new app directory (beta). This new
         routing and data fetching system can be incrementally adopted alongside
         your existing pages directory. The app directory provides many benefits,
@@ -69,8 +71,9 @@ export default function Home() {
         slightly larger, the increase is caused by the React Server Components
         runtime, which handles mechanics that Next.js previously handled. We are
         working to reduce this further.
-        <br />
-        <br />
+      </p>
+      <br />
+      <p>
         In Next.js 13, we announced the new app directory (beta). This new
         routing and data fetching system can be incrementally adopted alongside
         your existing pages directory. The app directory provides many benefits,
@@ -94,8 +97,9 @@ export default function Home() {
         slightly larger, the increase is caused by the React Server Components
         runtime, which handles mechanics that Next.js previously handled. We are
         working to reduce this further.
-        <br />
-        <br />
+      </p>
+      <br />
+      <p>
         In Next.js 13, we announced the new app directory (beta). This new
         routing and data fetching system can be incrementally adopted alongside
         your existing pages directory. The app directory provides many benefits,

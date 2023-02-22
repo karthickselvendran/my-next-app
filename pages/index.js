@@ -43,7 +43,7 @@ export default function Home() {
         running these commands : nextjs-app -pages -static -package.json And
         then simply you can run npm next dev and then open
         http://localhost:3000/ in your browser. The NotFound page will show up
-        because we don't have any page yet! So let’s create a home page and an
+        because we dont have any page yet! So lets create a home page and an
         entry point index.js. touch index.js home.js And then you can write a
         normal React component. As I said above, Next.js is for building React
         applications. Here is what our home.js looks like: And here is our

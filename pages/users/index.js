@@ -1,13 +1,15 @@
-export const getStaticProps = async () => {
-  console.log("getStaticProps--");
+import Link from "next/link";
+import styles from "./users.module.css";
 
-  let data = await fetch("https://jsonplaceholder.typicode.com/users")
-    .then((res) => res.json())
-    .then((json) => json);
+export const getStaticProps = async () => {
+
+  let response = await fetch("https://jsonplaceholder.typicode.com/users");
+
+  const jsonData = await response.json();
 
   return {
     props: {
-      names: data,
+      names: jsonData,
     },
   };
 };
@@ -20,8 +22,10 @@ export default function Users({ names }) {
       <br />
       {names?.length &&
         names.map((user) => (
-          <h2 key={user.id}>
-            {user.id + " " + user.name + ", " + user.address.city}
+          <h2 key={user.id} className={styles.list}>
+            <Link href={`users/${user.id}`}>
+              {user.id + " " + user.name + ", " + user.address.city}
+            </Link>
           </h2>
         ))}
     </div>

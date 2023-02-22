@@ -4,7 +4,7 @@ import styles from "./header.module.css";
 
 const Header = () => {
   return (
-    <div className={styles.header}>
+    <header className={styles.header}>
       <h1>
         <Link href="/">Next js</Link>
       </h1>
@@ -22,7 +22,7 @@ const Header = () => {
           <Link href="/signup">Sign up</Link>
         </span>
       </nav>
-    </div>
+    </header>
   );
 };
 

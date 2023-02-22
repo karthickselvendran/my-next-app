@@ -2,17 +2,7 @@ import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 import pic from "../public/assets/nextjs.png";
 
-export const getStaticPrope = async () => {
-  console.log("getStaticProps--");
-  return {
-    props: {
-      name: "Karthick",
-    },
-  };
-};
-
-export default function Home({ name }) {
-  console.log("name--", name);
+export default function Home() {
   return (
     <div className="home">
       <Image className="img" src={pic} alt="Next js" width={"300"} />

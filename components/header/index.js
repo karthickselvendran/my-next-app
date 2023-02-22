@@ -10,6 +10,12 @@ const Header = () => {
       </h1>
       <nav className={styles.nav}>
         <span className={styles.cursorPtr}>
+          <Link href="/">Home</Link>
+        </span>
+        <span className={styles.cursorPtr}>
+          <Link href="/users">Users</Link>
+        </span>
+        <span className={styles.cursorPtr}>
           <Link href="/signin">Sign in</Link>
         </span>
         <span className={styles.cursorPtr}>
